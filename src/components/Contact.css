@@ -1,0 +1,80 @@
+.constact{
+    margin: 3rem auto;
+    padding: 1rem;
+    margin-top: 1rem;
+    width: 100%;
+}
+
+.constact .container{
+    width: 1240px;
+  margin: 4rem auto;
+  padding: 1rem;
+  
+}
+.con{
+    margin-bottom: 3rem;
+    font-size: 1.8rem;
+    font-style: italic;
+}
+.con::after{
+    content: "";
+    margin-top: 10px;
+    width: 120px;
+    height: 2px;
+    display: inline-block;
+    background: #cc1a1a;
+    margin: 7px 9px;
+
+}
+
+.main{
+    padding: .3rem;
+    margin-left: 5rem;
+    margin-top: -3.6rem;
+
+}
+.conta{
+    padding-bottom: 2rem;
+    padding-bottom: 3rem;
+}
+.icon{
+    background-color: rgb(165, 165, 165);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    padding: .5rem;
+    color: black;
+    
+}
+.icon:hover{
+    background-color: #cc1a1a;
+}
+.main:hover .icon {
+    background-color: #cc1a1a;
+}
+.tag{
+    color: rgb(207, 46, 91);
+
+}
+
+.noraml{
+   font-weight: 500;
+    color: black;
+    line-height: 2rem;
+}
+
+
+@media screen and (max-width: 940px) {
+    .constact .container{
+        width: 100%;
+      margin: 4rem auto;
+      padding: 1rem;
+      
+    }
+    .icon:hover{
+        background-color: rgb(165, 165, 165);
+    }
+    .main:hover .icon {
+        background-color: rgb(165, 165, 165);
+    }
+}

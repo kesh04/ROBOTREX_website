@@ -1,0 +1,53 @@
+.footer {
+    width: 100%;
+    background-color: #000;
+    color: #eee;
+    padding: 3rem 1rem;
+    margin-top: -4rem;
+}
+
+.footer .container {
+    max-width: 1140px;
+    margin: auto;
+    text-align: center;
+}
+
+.footer ul {
+    display: flex;
+    justify-content: center;
+}
+
+.footer li {
+    padding: 1rem;
+}
+
+.footer li a {
+    color: #fff;
+}
+
+.footer li a:hover {
+    padding-bottom: 12px;
+    border-bottom: 3px solid #cc1a1a;
+}
+
+.bottom {
+    text-align: center;
+    padding-top: 0rem;
+}
+
+.line {
+    margin-bottom: 1rem;
+}
+
+
+@media screen and (max-width:940px) {
+  ul{
+    display: flex;
+    flex-direction: column;
+    
+  }
+   .footer li  {
+    margin: 0;
+   }
+    
+}
